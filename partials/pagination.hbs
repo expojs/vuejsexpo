@@ -1,0 +1,18 @@
+
+
+<nav aria-label="...">
+  <ul class="pagination justify-content-center align-items-center">
+    <li class="page-item">
+      {{#if prev}}
+        <a class="page-link" href="{{page_url prev}}"><i class="fas fa-chevron-left"></i></a>
+      {{/if}}
+    </li>
+
+    <span class="page-number">Page {{page}} of {{pages}}</span>
+    <li class="page-item">
+      {{#if next}}
+        <a class="page-link" href="{{page_url next}}"><i class="fas fa-chevron-right"></i></a>
+      {{/if}}
+    </li>
+  </ul>
+</nav>

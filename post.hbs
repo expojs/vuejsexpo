@@ -1,0 +1,66 @@
+{{!< layouts/default}}
+
+{{#post}}
+
+<main role="main">
+  <div class="page-content">
+    <img src="{{asset "img/bg_header.svg"}}" alt="background header" class="background-header">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-8">
+            <div class="card post-card">
+              <div class="card-header">
+                <a class="" href="{{ url }}">
+                  <img class="article-image card-img-top" src="{{feature_image}}" border="0" alt="{{title}} - Angular">
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="container">
+                  <a class="card-title" target="_blank" href="{{ url }}" >{{title}}</a>
+                  <p>
+                    {{content}}
+                  </p>
+                  <div class="tags-area">
+                    <span href="{{url}}">
+                      <b>
+                        {{tags}}
+                      </b>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                  <div class="card recent-posts">
+                    <div class="card-header d-flex">
+                      <i class="far fa-file-alt"></i>
+                      <h5>Recent posts</h5>
+                    </div>
+                    <div class="card-body">
+                      {{#get "posts" limit="5" as |recents|}}
+                        <ul>
+                          {{#foreach recents}}
+                            <li><a href="{{url}}">{{title}}</a></li>
+                          {{/foreach}}
+                        </ul>
+                      {{/get}}
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 ml-auto">
+          {{> sidebar0}}
+        </div>
+      </div>
+      <div class="row margin-100">
+        {{> subscribe-area}}
+      </div>
+    </div>
+    <img src="{{asset "img/bg.svg"}}" alt="background" class="post-page-background d-lg-block d-none">
+  </div>
+</main>
+
+{{/post}}

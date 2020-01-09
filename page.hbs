@@ -1,0 +1,33 @@
+{{!< layouts/default}}
+
+{{#post}}
+
+<main role="main">
+  <div class="page-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card card-page">
+            <div class="card-header">
+              <div class="card-title">
+                <a href="{{ url }}">{{title}}</a>
+              </div>
+            </div>
+            <div class="card-body card-text">
+              {{content}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              {{> sidebar}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{{/post}}
