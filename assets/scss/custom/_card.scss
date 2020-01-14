@@ -81,14 +81,14 @@
     .tags-area{
       padding: 10px 0;
 
-      .text-info a,
-      .text-info a:hover{
-        color: $brand-state !important;
+      .text-success a,
+      .text-success a:hover{
+        color: $button-color !important;
         text-transform: uppercase;
       }
-      .text-info{
+      .text-success{
         font-size: $font-size-default;
-        color: $brand-state !important;
+        color: $button-color !important;
       }
     }
 
