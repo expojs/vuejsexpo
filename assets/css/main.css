@@ -7050,22 +7050,16 @@ a.text-dark:hover, a.text-dark:focus {
       display: block;
       color: #777; }
     .code-fund .cf-wrapper .cf-media-body {
-      align-self: center;
-      margin-left: 10px; }
-    .code-fund .cf-wrapper .cf-impression {
-      display: none; }
-  .code-fund .cf-img {
-    width: 100px !important;
-    height: 100px;
+      align-self: center; }
+  .code-fund img {
     margin-top: 0 !important;
-    margin-bottom: 8px; }
-    .code-fund .cf-img[data-src="impression_url"] {
+    margin-right: 10px; }
+    .code-fund img[data-src="impression_url"] {
       position: fixed;
       left: -1000px;
       top: -1000px; }
   .code-fund .cf-img-wrapper {
     margin-right: 0 !important;
-    width: 100%;
     height: auto; }
 
 body {
@@ -7083,9 +7077,9 @@ a {
     color: #223464 !important; }
 
 .image-svg {
-  width: 1000px;
+  width: 1051px;
   position: absolute;
-  right: 0;
+  right: -27px;
   z-index: -1; }
 
 .margin-100 {
@@ -7108,12 +7102,19 @@ a {
 .white-space {
   background-color: #fdfcff;
   width: 10000px;
-  height: 706px;
+  height: 697px;
   position: absolute;
+  z-index: -2;
   right: -10000px; }
 
 .image-svg, .white-space {
   margin-top: -149px; }
+
+.page-content .error-button {
+  width: 170px; }
+
+.page-content .error-image {
+  width: 55%; }
 
 .card {
   width: 100%;
@@ -7168,24 +7169,24 @@ a {
     padding-bottom: 0; }
     .card .card-body .tags-area {
       padding: 10px 0; }
-      .card .card-body .tags-area .text-danger a,
-      .card .card-body .tags-area .text-danger a:hover {
-        color: #EC250D !important;
+      .card .card-body .tags-area .text-info a,
+      .card .card-body .tags-area .text-info a:hover {
+        color: #16BAE7 !important;
         text-transform: uppercase; }
-      .card .card-body .tags-area .text-danger {
-        font-size: 14px; }
+      .card .card-body .tags-area .text-info {
+        font-size: 14px;
+        color: #16BAE7 !important; }
     .card .card-body .card-title {
       font-size: 21px;
       font-weight: bold;
-      color: #223464; }
+      color: #3C4858; }
       .card .card-body .card-title:hover {
-        color: #223464 !important; }
+        color: #3C4858 !important; }
     .card .card-body .card-text {
       font-size: 14px;
       color: #223464;
       font-weight: lighter;
-      line-height: 24px;
-      margin-top: 10px; }
+      line-height: 24px; }
   .card.post-card .card-img-top {
     height: unset; }
   .card.post-card .btn {
@@ -7226,7 +7227,7 @@ a {
     margin-right: 20px; }
   .navbar .navbar-brand {
     font-weight: lighter;
-    margin-bottom: -1px; }
+    margin-bottom: -3px; }
     .navbar .navbar-brand img {
       position: relative;
       top: -3px; }
@@ -7257,7 +7258,8 @@ a {
     left: 33px; } }
 
 .section-search {
-  max-width: 560px; }
+  max-width: 560px;
+  margin-top: 100px; }
   .section-search .form-search {
     position: relative; }
     .section-search .form-search .form-control-search {
@@ -7283,7 +7285,7 @@ a {
       width: 46px;
       display: block;
       top: 7px;
-      background: #EC250D;
+      background: #16BAE7;
       color: #FFFFFF; }
       .section-search .form-search .btn-submit .icon-search {
         font-size: 18px;
@@ -7312,14 +7314,14 @@ a {
       padding-bottom: 20px; }
 
 .section-header {
-  margin: 150px 0; }
+  margin: 130px 0; }
   .section-header .text-description {
     font-size: 18px;
     font-weight: lighter;
     color: #223464;
     margin-bottom: 24px; }
   .section-header .text-title {
-    margin: 20px 0;
+    margin-bottom: 10px;
     font-size: 50px;
     color: #223464; }
   .section-header .form-group.form-subscribe {
@@ -7361,7 +7363,7 @@ a {
       font-size: 13px;
       padding: 6px 20px;
       top: 9px;
-      background: #EC250D;
+      background: #16BAE7;
       color: #FFFFFF; }
 
 .page-content {
@@ -7381,18 +7383,18 @@ a {
     background-color: #223464;
     color: #FFFFFF !important; }
 
-.btn-danger, .btn-submit {
-  background-image: linear-gradient(120deg, #FD5D93 0%, #EC250D 100%) !important; }
+.btn-info, .btn-submit {
+  background-image: linear-gradient(120deg, #5CDDFF 0%, #16BAE7 100%) !important; }
 
-.btn-outline-danger:hover {
-  background-image: linear-gradient(120deg, #FD5D93 0%, #EC250D 100%) !important; }
+.btn-outline-info:hover {
+  background-image: linear-gradient(120deg, #5CDDFF 0%, #16BAE7 100%) !important; }
 
-.btn-danger {
+.btn-info {
   border-radius: 30px;
   font-size: 14px;
   padding: 10px 24px;
   text-transform: uppercase; }
-  .btn-danger:hover {
+  .btn-info:hover {
     color: #FFFFFF !important; }
 
 .fa-github, .fa-twitter {
@@ -7401,13 +7403,13 @@ a {
 .fa-facebook-f {
   font-size: 18px !important; }
 
-.btn-outline-danger {
+.btn-outline-info {
   border-radius: 30px;
   font-size: 14px;
   padding: 10px 24px;
   text-transform: uppercase;
-  color: #F44336; }
-  .btn-outline-danger:hover {
+  color: #16BAE7; }
+  .btn-outline-info:hover {
     color: #FFFFFF !important; }
 
 .pagination .page-item .page-link {
@@ -7492,7 +7494,7 @@ a {
     font-size: 14px;
     padding: 10px 24px;
     text-transform: uppercase;
-    color: #F44336; }
+    color: #16BAE7; }
     .card-subscribe .card-body .submit-button:hover {
       color: #FFFFFF; }
   .card-subscribe .card-body .clear {
@@ -7597,6 +7599,7 @@ a {
       font-weight: 400;
       color: #223464;
       border: none;
+      border-bottom: 1px solid #D8D8D8;
       font-size: 14px;
       width: 60%;
       border-radius: 0;
@@ -7613,7 +7616,7 @@ a {
       padding-top: 8px;
       padding-bottom: 8px;
       font-weight: 200;
-      background: #EC250D;
+      background: #16BAE7;
       color: #FFFFFF; }
 
 .subscribe-image {

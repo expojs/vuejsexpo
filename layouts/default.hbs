@@ -15,8 +15,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="manifest" href="{{asset "/manifest.json"}}">
-  <link rel="shortcut icon" href="{{asset "/img/logo/angular.png"}}">
-  <link rel="icon" sizes="128x128" href="{{asset "/img/logo/angular.png"}}">
+  <link rel="shortcut icon" href="{{asset "/img/logo/react.png"}}">
+  <link rel="icon" sizes="128x128" href="{{asset "/img/logo/react.png"}}">
 
   <link rel="stylesheet" href="{{asset 'assets/css/main.css'}}">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,,600,800,900,300,200" rel="stylesheet">
@@ -28,12 +28,12 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MHKJWP4');</script>
+  })(window,document,'script','dataLayer','GTM-W9L625Z’');</script>
   <!-- End Google Tag Manager -->
 </head>
 <body class="{{body_class}}">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHKJWP4"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9L625Z”"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
@@ -43,15 +43,6 @@
 
   {{ghost_foot}}
 </body>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19102604-15"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-19102604-15');
-</script>
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -67,9 +58,10 @@
 <script src="https://cdn.jsdelivr.net/npm/ghost-search@1.1.0/dist/ghost-search.min.js"></script>
 
 <script type="text/javascript">
+let yPos;
     let ghostSearch = new GhostSearch({
-        key: '57eecfb7f0398659088427c6f0', // This is just a demo key. Replace the key with a real one. See Step 3.
-        url: 'https://angularexpo.com',
+        key: '6ca505ea47740500cd09dc5cfe', // This is just a demo key. Replace the key with a real one. See Step 3.
+        url: 'https://madewithreact.com',
         input: '#my-custom-input',
         results: '#my-custom-results',
         options: {
@@ -91,6 +83,7 @@
         }
     })
     $(document).ready(function() {
+      yPos = window.pageYOffset;
 
       $('.collapse').on('show.bs.collapse', function() {
         $(this).closest('.navbar').removeClass('navbar-transparent').addClass('bg-white');

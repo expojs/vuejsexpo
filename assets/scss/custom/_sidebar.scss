@@ -67,7 +67,8 @@
         outline: 0;
         border-bottom: 1px solid $text-primary;
         color: $text-primary;
-        font-size: $font-size-default;
+        font-size: $font-size-default;;
+
         opacity: 0.5;
 
         &:focus,&:active,&:hover{
@@ -88,6 +89,7 @@
           color: $text-primary;
           opacity: 1;
         }
+
       }
     }
     .submit-button{
@@ -95,7 +97,7 @@
       font-size: $font-size-default;;
       padding: $buttons-padding;
       text-transform: uppercase;
-      color: $button-default;
+      color: $brand-state;
 
       &:hover{
         color: $white-color;

@@ -81,23 +81,24 @@
     .tags-area{
       padding: 10px 0;
 
-      .text-danger a,
-      .text-danger a:hover{
+      .text-info a,
+      .text-info a:hover{
         color: $brand-state !important;
         text-transform: uppercase;
       }
-      .text-danger{
-        font-size: $font-size-default;;
+      .text-info{
+        font-size: $font-size-default;
+        color: $brand-state !important;
       }
     }
 
     .card-title{
       font-size: 21px;
       font-weight: bold;
-      color: $text-primary;
+      color: $card-title;
 
       &:hover{
-        color: $text-primary !important;
+        color: $card-title !important;
       }
     }
 
@@ -106,7 +107,6 @@
       color: $text-primary;
       font-weight: lighter;
       line-height: 24px;
-      margin-top: 10px;
     }
   }
 
