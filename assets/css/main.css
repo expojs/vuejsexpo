@@ -7179,7 +7179,8 @@ a {
     .card .card-body .card-title {
       font-size: 21px;
       font-weight: bold;
-      color: #3C4858; }
+      color: #3C4858;
+      display: inline-block; }
       .card .card-body .card-title:hover {
         color: #3C4858 !important; }
     .card .card-body .card-text {

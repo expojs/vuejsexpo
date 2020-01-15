@@ -96,7 +96,8 @@
       font-size: 21px;
       font-weight: bold;
       color: $card-title;
-
+      display: inline-block;
+      
       &:hover{
         color: $card-title !important;
       }
