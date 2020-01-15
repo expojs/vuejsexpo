@@ -7314,7 +7314,8 @@ a {
       padding-bottom: 20px; }
 
 .section-header {
-  margin: 130px 0; }
+  margin: 130px 0;
+  margin-bottom: 210px; }
   .section-header .text-description {
     font-size: 18px;
     font-weight: lighter;
