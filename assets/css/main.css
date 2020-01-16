@@ -7077,7 +7077,7 @@ a {
     color: #223464 !important; }
 
 .image-svg {
-  width: 1051px;
+  width: 987px;
   position: absolute;
   right: -27px;
   z-index: -1; }
@@ -7144,9 +7144,9 @@ a {
   .card.card-page .card-header .card-title {
     font-size: 34px;
     font-weight: bold;
-    color: #3C4858; }
+    color: #223464; }
     .card.card-page .card-header .card-title:hover {
-      color: #3C4858 !important; }
+      color: #223464 !important; }
   .card .card-header {
     background-color: transparent;
     border-bottom: none;
@@ -7169,19 +7169,20 @@ a {
     padding-bottom: 0; }
     .card .card-body .tags-area {
       padding: 10px 0; }
-      .card .card-body .tags-area .text-info a,
-      .card .card-body .tags-area .text-info a:hover {
-        color: #16BAE7 !important;
+      .card .card-body .tags-area .text-success a,
+      .card .card-body .tags-area .text-success a:hover {
+        color: #28D0A8 !important;
         text-transform: uppercase; }
-      .card .card-body .tags-area .text-info {
+      .card .card-body .tags-area .text-success {
         font-size: 14px;
-        color: #16BAE7 !important; }
+        color: #28D0A8 !important; }
     .card .card-body .card-title {
       font-size: 21px;
       font-weight: bold;
-      color: #3C4858; }
+      color: #223464;
+      display: inline-block; }
       .card .card-body .card-title:hover {
-        color: #3C4858 !important; }
+        color: #223464 !important; }
     .card .card-body .card-text {
       font-size: 14px;
       color: #223464;
@@ -7227,7 +7228,7 @@ a {
     margin-right: 20px; }
   .navbar .navbar-brand {
     font-weight: lighter;
-    margin-bottom: -3px; }
+    margin-bottom: -4px; }
     .navbar .navbar-brand img {
       position: relative;
       top: -3px; }
@@ -7285,7 +7286,7 @@ a {
       width: 46px;
       display: block;
       top: 7px;
-      background: #16BAE7;
+      background: #36A6BF;
       color: #FFFFFF; }
       .section-search .form-search .btn-submit .icon-search {
         font-size: 18px;
@@ -7314,7 +7315,8 @@ a {
       padding-bottom: 20px; }
 
 .section-header {
-  margin: 130px 0; }
+  margin: 130px 0;
+  margin-bottom: 210px; }
   .section-header .text-description {
     font-size: 18px;
     font-weight: lighter;
@@ -7363,7 +7365,7 @@ a {
       font-size: 13px;
       padding: 6px 20px;
       top: 9px;
-      background: #16BAE7;
+      background: #36A6BF;
       color: #FFFFFF; }
 
 .page-content {
@@ -7383,18 +7385,18 @@ a {
     background-color: #223464;
     color: #FFFFFF !important; }
 
-.btn-info, .btn-submit {
-  background-image: linear-gradient(120deg, #5CDDFF 0%, #16BAE7 100%) !important; }
+.btn-success, .btn-submit {
+  background-image: linear-gradient(120deg, #1CF196 0%, #36A6BF 100%) !important; }
 
-.btn-outline-info:hover {
-  background-image: linear-gradient(120deg, #5CDDFF 0%, #16BAE7 100%) !important; }
+.btn-outline-success:hover {
+  background-image: linear-gradient(120deg, #1CF196 0%, #36A6BF 100%) !important; }
 
-.btn-info {
+.btn-success {
   border-radius: 30px;
   font-size: 14px;
   padding: 10px 24px;
   text-transform: uppercase; }
-  .btn-info:hover {
+  .btn-success:hover {
     color: #FFFFFF !important; }
 
 .fa-github, .fa-twitter {
@@ -7403,14 +7405,17 @@ a {
 .fa-facebook-f {
   font-size: 18px !important; }
 
-.btn-outline-info {
+.btn-outline-success {
   border-radius: 30px;
   font-size: 14px;
+  border-color: #28D0A8;
   padding: 10px 24px;
   text-transform: uppercase;
-  color: #16BAE7; }
-  .btn-outline-info:hover {
-    color: #FFFFFF !important; }
+  color: #28D0A8; }
+  .btn-outline-success:hover {
+    color: #FFFFFF !important;
+    border: none;
+    margin: 1px; }
 
 .pagination .page-item .page-link {
   font-size: 14px;
@@ -7493,8 +7498,7 @@ a {
     border-radius: 30px;
     font-size: 14px;
     padding: 10px 24px;
-    text-transform: uppercase;
-    color: #16BAE7; }
+    text-transform: uppercase; }
     .card-subscribe .card-body .submit-button:hover {
       color: #FFFFFF; }
   .card-subscribe .card-body .clear {
@@ -7616,7 +7620,7 @@ a {
       padding-top: 8px;
       padding-bottom: 8px;
       font-weight: 200;
-      background: #16BAE7;
+      background: #36A6BF;
       color: #FFFFFF; }
 
 .subscribe-image {
