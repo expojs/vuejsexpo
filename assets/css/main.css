@@ -7413,7 +7413,9 @@ a {
   text-transform: uppercase;
   color: #28D0A8; }
   .btn-outline-success:hover {
-    color: #FFFFFF !important; }
+    color: #FFFFFF !important;
+    border: none;
+    margin: 1px; }
 
 .pagination .page-item .page-link {
   font-size: 14px;
