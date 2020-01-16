@@ -39,10 +39,10 @@
     .card-header .card-title{
       font-size: 34px;
       font-weight: bold;
-      color: $card-title;
+      color: $text-primary;
 
       &:hover{
-        color: $card-title !important;
+        color: $text-primary !important;
       }
     }
   }
@@ -95,11 +95,11 @@
     .card-title{
       font-size: 21px;
       font-weight: bold;
-      color: $card-title;
+      color: $text-primary;
       display: inline-block;
-      
+
       &:hover{
-        color: $card-title !important;
+        color: $text-primary !important;
       }
     }
 

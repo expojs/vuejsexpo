@@ -7144,9 +7144,9 @@ a {
   .card.card-page .card-header .card-title {
     font-size: 34px;
     font-weight: bold;
-    color: #3C4858; }
+    color: #223464; }
     .card.card-page .card-header .card-title:hover {
-      color: #3C4858 !important; }
+      color: #223464 !important; }
   .card .card-header {
     background-color: transparent;
     border-bottom: none;
@@ -7179,10 +7179,10 @@ a {
     .card .card-body .card-title {
       font-size: 21px;
       font-weight: bold;
-      color: #3C4858;
+      color: #223464;
       display: inline-block; }
       .card .card-body .card-title:hover {
-        color: #3C4858 !important; }
+        color: #223464 !important; }
     .card .card-body .card-text {
       font-size: 14px;
       color: #223464;
@@ -7228,7 +7228,7 @@ a {
     margin-right: 20px; }
   .navbar .navbar-brand {
     font-weight: lighter;
-    margin-bottom: -3px; }
+    margin-bottom: -4px; }
     .navbar .navbar-brand img {
       position: relative;
       top: -3px; }
