@@ -13,15 +13,16 @@
     padding: 10px !important;
     background-color: #fff !important;
     border-radius: 4px;
-    display: flex;
+    display: block;
     overflow: hidden;
     font-size: 14px;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
 
     .cf-text{
       color: #333;
       text-decoration: none;
+      text-align: left;
     }
     .cf-powered-by{
       box-shadow: none !important;
@@ -29,15 +30,18 @@
      margin-top: 5px;
      font-size: 12px;
      display: block;
+     text-align: left;
      color: #777;
     }
-    .cf-media-body{
-      align-self: center;
+
+    .cf-impression{
+      display: none;
     }
   }
-  img{
+  .cf-img{
+    width: 100px !important;
+    height: 100px;
     margin-top: 0 !important;
-    margin-right: 10px;
     &[data-src="impression_url"]{
       position: fixed;
       left: -1000px;
@@ -45,7 +49,7 @@
     }
   }
   .cf-img-wrapper{
-    margin-right: 0 !important;
-    height: auto;
+    float: left;
+    margin-right: 10px;
   }
 }
